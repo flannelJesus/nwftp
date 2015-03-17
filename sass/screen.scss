@@ -17,13 +17,18 @@ body > div {
 #f-container {
   display: flex;
   flex-direction: row;
-  padding: 3px;
+  padding: 6px;
 
   > div {
     flex: 1 1 50%;
-    margin: 3px;
+    margin: 0;
     display: flex;
     flex-direction: column;
+  }
+
+  .handle {
+    min-height: 100%;
+    flex: 0 0 6px;
   }
 }
 
@@ -38,9 +43,15 @@ body > div {
   input {
     flex: 1 1 auto;
   }
+
+  button {
+    margin-left: 5px;
+  }
 }
 
 .browse {
   border: solid 1px grey;
   flex: 1 1 auto;
+  overflow-x: auto;
+  overflow-y: auto;
 }

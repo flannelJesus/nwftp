@@ -21,33 +21,44 @@ body > div {
 #f-container {
   display: flex;
   flex-direction: row;
-  padding: 3px;
+  padding: 6px;
 }
 /* line 22, ../sass/screen.scss */
 #f-container > div {
   flex: 1 1 50%;
-  margin: 3px;
+  margin: 0;
   display: flex;
   flex-direction: column;
 }
+/* line 29, ../sass/screen.scss */
+#f-container .handle {
+  min-height: 100%;
+  flex: 0 0 6px;
+}
 
-/* line 30, ../sass/screen.scss */
+/* line 35, ../sass/screen.scss */
 #log {
   background: lightgrey;
 }
 
-/* line 34, ../sass/screen.scss */
+/* line 39, ../sass/screen.scss */
 .browse-header {
   display: flex;
   margin-bottom: 5px;
 }
-/* line 38, ../sass/screen.scss */
+/* line 43, ../sass/screen.scss */
 .browse-header input {
   flex: 1 1 auto;
 }
+/* line 47, ../sass/screen.scss */
+.browse-header button {
+  margin-left: 5px;
+}
 
-/* line 43, ../sass/screen.scss */
+/* line 52, ../sass/screen.scss */
 .browse {
   border: solid 1px grey;
   flex: 1 1 auto;
+  overflow-x: auto;
+  overflow-y: auto;
 }
