@@ -1,0 +1,53 @@
+/* line 1, ../sass/screen.scss */
+html, body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* line 7, ../sass/screen.scss */
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+
+/* line 13, ../sass/screen.scss */
+body > div {
+  flex: 1 1 50%;
+}
+
+/* line 17, ../sass/screen.scss */
+#f-container {
+  display: flex;
+  flex-direction: row;
+  padding: 3px;
+}
+/* line 22, ../sass/screen.scss */
+#f-container > div {
+  flex: 1 1 50%;
+  margin: 3px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 30, ../sass/screen.scss */
+#log {
+  background: lightgrey;
+}
+
+/* line 34, ../sass/screen.scss */
+.browse-header {
+  display: flex;
+  margin-bottom: 5px;
+}
+/* line 38, ../sass/screen.scss */
+.browse-header input {
+  flex: 1 1 auto;
+}
+
+/* line 43, ../sass/screen.scss */
+.browse {
+  border: solid 1px grey;
+  flex: 1 1 auto;
+}
